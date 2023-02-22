@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Ceviche One", cursive;
+}
+
+a:hover {
+  background-color: #bbb8b8;
+  border-radius: 1em;
+  padding: 0.1em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background: white;
+  padding: 1em;
+  width: 95%;
+  margin-left: 1em;
+  border-radius: 4em;
+}
+
+.nav-bar .active a {
+  background-color: black;
+  color: white;
+  border-radius: 5em;
+  padding: 0.2em;
+}
+
+.nav-bar .right {
+  float: right;
+  padding-right: 2em;
+}
+
+.nav-bar a {
+  font-size: 25px;
+  padding-right: 0.2em;
+}
+
+.nav-bar li {
+  padding-bottom: 0;
+  display: block;
+  display: inline;
+}
+
+.mnhead {
+  border-radius: 5em;
+  background-color: #ebe7e7;
+  color: black;
+  margin: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: cursive;
+  font-size: 16px;
+  float: left;
+  padding-left: 0.7em;
+  padding-bottom: 0.5em;
+}
+
+.mnhead h1 {
+  border-radius: 5em;
+  margin: 0;
+  padding-right: 2em;
+  padding-left: 0.1em;
+  padding-bottom: 0.2em;
+}
+
+.mnhead span {
+  color: #007af0;
+}
+
+.main {
+  padding-left: 1em;
+  border-radius: 5em;
+}
+
+.main p {
+  line-height: 1.8;
+  background-color: #cccacae0;
+  border-radius: 1em;
+  padding: 0.5em;
+  width: 85%;
+  margin-right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.main img {
+  border-radius: 1em;
+  width: 200px;
+  height: 130px;
+  display: block;
+  margin: 0;
+}
+img.small {
+  float: right;
+  width: 64px;
+  height: 64px;
+}
+
+.side-bar {
+  position: absolute;
+  left: 90%;
+  top: 100px;
+  float: right;
+  background-color: #333;
+  color: white;
+  width: 8%;
+  height: 60%;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-right: 0.1em;
+  line-height: 1.8em;
+}
+
+.side-bar a {
+  color: white;
+  font-size: 26px;
+}
+
+.side-bar a:hover {
+  color: green;
+}
+
+.side-bar span {
+  border: #f2f2f2 solid;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  color: gold;
+}
+
+.foot {
+  background-color: #333;
+  color: white;
+  padding: 2em;
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+/*# sourceMappingURL=style.css.map */
